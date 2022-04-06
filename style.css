@@ -31,7 +31,7 @@ nav .onglets a{
     border-bottom: 1px solid #000;
     padding-bottom: 5px;
 }
-
+  /* header*/
 header{
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ header button{
     font-family: 'Playfair Display', serif;
     cursor: pointer;
 }
-
+ /* main */
 .main{
     margin-top: 40px;
     display: flex;
@@ -85,7 +85,36 @@ header button{
     height:300px;
     width: 400px;
     margin-top: 5px;
+} 
+/*footer*/
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;;
 }
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
 
 
 
@@ -104,6 +133,9 @@ header button{
     }
     .main .content .card{
         display: block;
+    }
+    footer{
+        padding: 30px;
     }
    
 }
