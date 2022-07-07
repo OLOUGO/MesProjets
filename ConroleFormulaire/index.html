@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" async></script>
+
+    <title>Formulaire</title>
+</head>
+<body>
+  <div class="container">
+    <div class="tete">
+        <h2>Compte utilisateur</h2>
+    </div>
+    <form action="" class="form" id="form">
+
+        <div class="form-control ">
+            <label for="">Utilisateurs</label>
+            <input type="text" id="username" placeholder="Entrer un nom valide">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation"></i>
+            <small>Message d'erreur</small>
+        </div>
+
+        <div class="form-control  ">
+            <label for="">Adressse Email </label>
+            <input type="email" id="mail" placeholder="Entrer un email valide">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation"></i>
+            <small>Message d'erreur</small>
+        </div>
+
+        <div class="form-control">
+            <label for="">Mot de passe</label>
+            <input type="password" id="mdp" placeholder="Entrer un mot de passe valide">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation"></i>
+            <small>Message d'erreur</small>
+        </div>
+
+        <div class="form-control">
+            <label for="">Confirmer mot de passe </label>
+            <input type="password" id="mdpconf" placeholder="Retaper le mot de pass">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation"></i>
+            <small>Message d'erreur</small>
+        </div>
+
+        <button type="submit" class="form-button"><i class="fas fa-envelope" aria-hidden="true"></i> Envoyer</button>
+    </form>
+  </div>
+</body>
+</html>
